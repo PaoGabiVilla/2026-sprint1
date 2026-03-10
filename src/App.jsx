@@ -5,11 +5,11 @@ import Main from './components/Main'
 
 const App = () => {
   return (
-    <>  
+    <div className='flex flex-col min-h-screen'>  
       <Header />
       <Main />  
       <Footer />
-    </>
+    </div>
   )
 }
 

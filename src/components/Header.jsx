@@ -12,9 +12,12 @@ const Header = () => {
       <nav className="flex justify-between items-center">
             
         <div className="text-xl font-bold">
-          Logo
+         <h1 className="text-xl font-bold flex items-center gap-2">
+  <i className="bi bi-code-slash"></i>
+  DevStudio
+</h1>
         </div>
-
+      
         <i 
           className="bi bi-list text-2xl cursor-pointer"
           onClick={() => setMenuAbierto(!menuAbierto)}
